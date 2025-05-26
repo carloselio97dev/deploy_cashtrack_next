@@ -34,7 +34,7 @@ export default function AddExpenseForm({closeModal}: {closeModal: () => void}) {
       </DialogTitle>
 
       <p className="text-xl font-bold">Llena el formulario y crea un {''}
-        <span className="text-amber-500">gasto</span>
+        <span className="text-amber-500">Gasto</span>
       </p>
 
       {state.errors.map(error => <ErrrorMessage key={error}>{error}</ErrrorMessage>)}
